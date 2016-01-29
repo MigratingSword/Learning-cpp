@@ -1,0 +1,47 @@
+#include <iostream>
+
+using namespace std;
+
+int main() 
+{
+    //The main vairables
+    int myAge = 14;
+    int Age;
+    int momsAge = 22;
+    int dadsAge = 28;
+    int moreNum;
+    
+    //The code its self
+    cout << "My age is " << myAge << endl;
+    cout << "Please enter your age" << endl;
+    cin >> Age;
+    cout << "Your age is " << Age << endl;
+    
+    //Adding Ages
+    int total = myAge + Age;
+    cout << "If you added my and your age together you get " << total << endl;
+    
+    //Extra age stuff
+    int momTotal = total - momsAge;
+    cout << "If you subtracted moms age wich is " << momsAge << " from the added ages you get " << momTotal << endl;
+    
+    //Even more age stuff
+    cout << "Now lets say you add your dads age which is " << dadsAge << endl;
+    int dadTotal = momTotal + dadsAge;
+    cout << "You would get " << dadTotal << endl;
+    
+    //MOAR MATH
+    cout << "Now go ahead and add a number" << endl;
+    cin >> moreNum;
+    cout << "You added " << moreNum << endl;
+    int moreTotal = moreNum + dadTotal;
+    cout << "The number you just put and the previos number equal " << moreTotal << endl;
+    
+    //End
+    cout << "Good job getting through that\n";
+    cout << "You earned a cookie" << endl;
+    
+    
+    
+    return 0;
+}
