@@ -1,6 +1,6 @@
 # Learning-cpp
 
-Im learning cpp and i figured it put my programs and such in this.
+Since ive started to learn cpp
+I figure i would start to use github
 
-
-ye
+That is all good bye
